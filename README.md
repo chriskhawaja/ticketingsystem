@@ -100,7 +100,21 @@ This project involves the creation of a Help Desk ticketing system with the use 
   - Refreshing the osTicket installer on your web browser should show those extensions enabled
   - Next, rename ost-sampleconfig.php to ost-config.php (found within the "include" folder within osTicket folder of wwwroot)
   - Next, give everyone access to the ost-config.php file
-![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/f94b6206-1ec5-453c-af75-c6959f885e36)
+ ![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/f94b6206-1ec5-453c-af75-c6959f885e36)
+  - Continue to fill out os Installer information, such as Help Desk name and Administrator account information
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/f329db4c-25ee-46c4-8661-1aed8ba7f2a2)
+  - Run and install HeidiSQL
+  - Create a new session for root and create a password
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/75987d66-57bd-4248-a610-ce1d750ef396)
+  - Right-click on "Unnamed"
+  - Select New -> Database
+  - Name it osTicket
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/4ccb7533-b770-4973-9d40-d92b3e463d55)
+  - Fill out the database settings on osInstaller and click "Install"
+  - Login to your Help Desk system with the administrator account you created
+    - http://localhost/osTicket/scp/login.php
+  - The Help Desk system is now created
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/c2cf290f-f777-4562-90a6-c618ea48b8b6)
 
    
 
