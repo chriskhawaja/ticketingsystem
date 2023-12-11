@@ -1,58 +1,73 @@
 
 
-![image](https://github.com/chriskhawaja/azure-network-protocols/assets/153021794/1d10087c-82b1-437a-a347-e8eefba67d70)
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/a4262750-495a-4fcd-81b0-7387b8fbca1e)
 
 
 
 
-<h1>Analyzing Network Traffic and Implementing Network Security Groups</h1>
+
+<h1>Creating and Managing a Help Desk Ticketing System</h1>
 
 <h2>Project Summary</h2>
-This project involves the creation of two virtual machines and the utilization of Wireshark to examine various network traffic. Additionally, Network Security Groups will be accessed via Azure to allow or block ICMP traffic. Completion of this project aims to give the user a better understanding of ports, network protocols, remote desktop protocol, command line use, and a basic proficiency of a network analyzer tool, such as Wireshark.
+This project involves the creation of a Help Desk ticketing system with the use of an Azure virtual machine. Additionally, there will be a significant amount of programs that will need to be downloaded. Specifically, we will need to enable Internet Information Services (IIS), and dowload programs such as PHP manager for IIS, MySQL, HeidiSQL, osTicket software, visual C++ distributable, and URL rewrite. Once the ticketing system is created, we can create different departments, roles, teams, agents, and users. Additionally, we can create help topics when users submit tickets, and create Service Level Agreements (SLA's) based on the severity of different tickets. Furthermore, we can act as users by submitting tickets, and then respond to those tickets by using administrator accounts. The goal of this project is to educate individuals on the administration of ticketing systems, and provide experience in the creation and response of ticket requests. 
 <h2>Platforms and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machine Deployment)
-- Azure Resource Group (Contains VM's)
-- Command Prompt (Communication with the Operating System)
-- Wireshark (Network Traffic Analyzer Tool)
-- SSH (Accessing Linux Terminal)
-  - TCP Port 22
-- DNS (Conversion of strings and letters into IP addresses)
-  - TCP and UDP Port 53
-- DHCP (IP Address Allocation)
-  - TCP Ports 67 and 68
+- Azure Resource Group (Contains VM)
 - RDP (Remotely Accessing Virtual Machines)
   - TCP Port 3389
-
+- Internet Information Services
+- PHP Manager
+- HeidiSQL
+- MySQL
+- Visual C++ Distributable
+- URL Rewrite
 <h2>Operating Systems Used </h2>
 
-- Windows 10 Pro
-- Linux (Ubuntu Server 20.04)
+- Windows 10 Pro (2-4 vCPU's)
 
 <h2>Project Installation Steps</h2>
 
 - Step 1
   - Create a Resource Group within Microsoft Azure
-![image](https://github.com/chriskhawaja/azure-network-protocols/assets/153021794/36006b36-ffd9-41f5-9f41-7f04ae2ce17e)
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/88698d6a-43ad-430f-b331-c399cd577884)
+
 
 - Step 2  - within the Resource Group that was created
   - Create an Azure Virtual Machine running a Windows 10 Pro Image
   - Make sure to place this Virtual Machine into the resource group that was created
-  - Ensure that 2 Virtual CPU's are selected for each Virtual Machine
-  ![image](https://github.com/chriskhawaja/azure-network-protocols/assets/153021794/baef5b4a-f3ed-40d2-90d6-fcd570da6d1c)
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/0f60f238-cbfe-40fd-a5b3-4568c566de05)
+
 
 - Step 3
-  - Repeat the same process and create a Virtual Machine with an Ubuntu Server Image
-  - Make sure that both Virtual Machines are on the same Virtual Network   
-![image](https://github.com/chriskhawaja/azure-network-protocols/assets/153021794/c12876b3-2705-4d20-a23a-297d160110e4)
+ - Remote into the VM by using Remote Desktop Protocol 
+  - If there is confusion on how to do this, please refer to the other labs for assistance
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/7dafb199-6ac0-455a-aa33-d32b74ca1faa)
 
 
 
 - Step 4
-  - Utilizing RDP on Windows, remote into Virtual Machine 1 (Windows Pro) - by typing in the IP Address
-  - If using a Mac computer, go to the app store and download the Microsoft Remote Desktop application
-  - You will be prompted with a login screen - use the credentials you provided during the virtual machine creation process
-![image](https://github.com/chriskhawaja/azure-network-protocols/assets/153021794/6d103328-f103-429d-aef5-f47c17e1aa1b)
+   - Type in "run" at the start menu on the bottom left corner
+   - Once the run box comes up, type "control panel" and press enter
+
+    ![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/c6aa20ed-95ce-4084-b6cb-0ba6c3ddc0d4)
+  - When control panel loads up, clikc "Programs"
+  - Then select "Turn Windows features on or off"
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/ebb6436d-e9f5-4b64-afb6-fe90e1d71a1b)
+  - Make sure that Internet Information Services is selected
+  - Expand World Wide Web Services, click Application Development Features, and make sure that CGI and Common HTTP Features are selected
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/524a3f4f-fd28-4833-85f7-4f47cb292ea1)
+  - Additionally, make sure that IIS Management Console is selected under Web Management Tools
+  - When finished, press "ok" and changes will be made
+  - We will now begin by downloading PHP Manager for IIS
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/b3021099-62bc-4982-bb43-6398b1f5f8b0)
+  - After downloading PHP, we need to create a PHP folder in our C: Drive
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/b54bb74c-9fd3-4039-82f8-d0626365e6dc)
+  - Next, we will download the Rewrite Module
+  - Run the Rewrite Module Setup Wizard and finish the installation
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/c139c988-6dcf-46d7-a1d2-adeb45ba61d8)
+  - 
+
 
 
 - Step 5
