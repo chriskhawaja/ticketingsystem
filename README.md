@@ -86,7 +86,23 @@ This project involves the creation of a Help Desk ticketing system with the use 
   - Drag upload folder from osTicket zipped folder into "wwwroot"
     - This is found within the "inetpub" folder of the C: drive on the VM
 ![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/108d481b-e402-463c-a95c-97c57d7e5689)
+  - VERY IMPORTANT! - Rename upload folder in wwwroot to "osTicket"
+    - If this is not done, the ticketing system will not work
+  - Reload IIS as administrator
+    - Select osTicket -> Sites -> Default Web Site -> osTicket folder -> Browse *:80(http)
+    - osTicket installer should now load up (some extensions are not enabled)
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/62ce7539-d4fd-4f5d-9738-1f70afb8d354)
+  - to enable these extensions, open IIS back up, and navigate to the osTicket folder
+  - Open PHP Manager
+  - Click "enable or disable an extension" at the bottom
+  - Enable the "impap, intl, and opcache" extensions
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/79e7278f-92ac-4515-8888-853bcdf866c1)
+  - Refreshing the osTicket installer on your web browser should show those extensions enabled
+  - Next, rename ost-sampleconfig.php to ost-config.php (found within the "include" folder within osTicket folder of wwwroot)
+  - Next, give everyone access to the ost-config.php file
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/f94b6206-1ec5-453c-af75-c6959f885e36)
 
+   
 
 
 
