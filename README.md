@@ -153,5 +153,16 @@ This project involves the creation of a Help Desk ticketing system with the use 
 ![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/d3f9fa0e-738a-4431-99ba-bbdf70fc9243)
 ![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/91c0c804-8e38-4530-aded-ea15a9bd5e0e)
 
+- Configuring Help Topics
+  - Admin Panel -> Manage -> Help Topics
+  - We will create Help Topics for Business Critical Outages, Password Resets, Equipments Requests, and Personal Computer Issues
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/dc390088-6bd5-426d-a223-7d9260a42ee8)
 
+- Practice Help Desk Ticket
+  - We will create and respond to a ticket for a practice simulation
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/cd3807a3-d197-4db7-a443-f7235d51a503)
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/e12291f0-198f-4e70-b4bc-bed42da3fb8f)
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/1c0c7c3f-e123-405b-981b-0c3a9b351ec9)
+
+ 
 
