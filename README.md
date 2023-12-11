@@ -79,8 +79,20 @@ This project involves the creation of a Help Desk ticketing system with the use 
   - We will now type in IIS at the start menu and right-click over IIS (run as administrator)
 ![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/09714785-5a2d-4bee-80df-12cc98bcee38)
   - Double-click PHP and select "Register new PHP version"
+  - Select the cgi file from the PHP folder that received the extracted files 
 ![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/4f6d7a0b-0d44-4bc4-8e57-e1b6b90efa2f)
+  - Stop and restart the PHP server (found towards the right side of IIS)
+  - Next, install osTicket
+  - Drag upload folder from osTicket zipped folder into "wwwroot"
+    - This is found within the "inetpub" folder of the C: drive on the VM
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/108d481b-e402-463c-a95c-97c57d7e5689)
 
+
+
+
+
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/5bd9dc8e-c57d-4609-a931-a15accd266b9)
+  - 
 - Step 5
   - Once you are booted into the Virtual Machine, proceed to download Wireshark
   - Type in "Download Wireshark" on a Google Search
