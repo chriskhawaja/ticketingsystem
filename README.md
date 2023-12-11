@@ -59,16 +59,27 @@ This project involves the creation of a Help Desk ticketing system with the use 
 ![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/524a3f4f-fd28-4833-85f7-4f47cb292ea1)
   - Additionally, make sure that IIS Management Console is selected under Web Management Tools
   - When finished, press "ok" and changes will be made
-  - We will now begin by downloading PHP Manager for IIS
+  - We will now begin by downloading PHP 7.38
 ![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/b3021099-62bc-4982-bb43-6398b1f5f8b0)
-  - After downloading PHP, we need to create a PHP folder in our C: Drive
+  - After downloading PHP 7.38, we need to create a PHP folder in our C: Drive
 ![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/b54bb74c-9fd3-4039-82f8-d0626365e6dc)
   - Next, we will download the Rewrite Module
   - Run the Rewrite Module Setup Wizard and finish the installation
 ![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/c139c988-6dcf-46d7-a1d2-adeb45ba61d8)
-  - 
-
-
+  - We will now download PHP Manager for IIS
+  - Run and complete the PHP Manager for IIS Installation Wizard
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/94569378-4585-4b0a-ac26-e473c0b065ee)
+  - We will now extract the zipped PHP 7.38 folder into the empty PHP folder in our C: Drive
+  ![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/f7baf457-355c-43c5-b206-5913562f26ba)
+  - Run the Visual C++ Setup Wizard and finish the installation
+  - Next, download MySQL and proceed with the "Typical Setup" and install
+    - Once the configuration wizard launches, select "Standard Configuration" and select a password
+  ![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/2fa48bd6-c515-4c4d-afc7-3fe99d51ec5e)
+  - Select execute and finish the installation 
+  - We will now type in IIS at the start menu and right-click over IIS (run as administrator)
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/09714785-5a2d-4bee-80df-12cc98bcee38)
+  - Double-click PHP and select "Register new PHP version"
+![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/4f6d7a0b-0d44-4bc4-8e57-e1b6b90efa2f)
 
 - Step 5
   - Once you are booted into the Virtual Machine, proceed to download Wireshark
