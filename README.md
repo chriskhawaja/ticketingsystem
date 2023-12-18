@@ -51,7 +51,7 @@ This project involves the creation of a Help Desk ticketing system with the use 
    - Once the run box comes up, type "control panel" and press enter
 
     ![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/c6aa20ed-95ce-4084-b6cb-0ba6c3ddc0d4)
-  - When control panel loads up, clikc "Programs"
+  - When control panel loads up, click "Programs"
   - Then select "Turn Windows features on or off"
 ![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/ebb6436d-e9f5-4b64-afb6-fe90e1d71a1b)
   - Make sure that Internet Information Services is selected
