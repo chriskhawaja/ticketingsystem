@@ -56,6 +56,7 @@ This project involves the creation of a Help Desk ticketing system with the use 
 ![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/ebb6436d-e9f5-4b64-afb6-fe90e1d71a1b)
   - Make sure that Internet Information Services is selected
   - Expand World Wide Web Services, click Application Development Features, and make sure that CGI and Common HTTP Features are selected
+    
 ![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/524a3f4f-fd28-4833-85f7-4f47cb292ea1)
   - Additionally, make sure that IIS Management Console is selected under Web Management Tools
   - When finished, press "ok" and changes will be made
