@@ -116,3 +116,7 @@ This project involves the creation of a Help Desk ticketing system with the use 
     - http://localhost/osTicket/scp/login.php
   - The Help Desk system is now created
 ![image](https://github.com/chriskhawaja/ticketingsystem/assets/153021794/c2cf290f-f777-4562-90a6-c618ea48b8b6)
+
+
+
+**** Picture used at the top of personal project is not mine (taken from Google)
